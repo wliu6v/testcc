@@ -107,7 +107,7 @@ dependencies = [
 
 [[move.package]]
 id = "mtoken"
-source = { git = "https://github.com/Matrixdock-RWA/RWA-Contracts.git", rev = "sui_verify", subdir = "xaum-sui/packages/mtoken" }
+source = { local = "../../contracts_other/vendor/xaum/packages/mtoken" }
 
 dependencies = [
   { id = "Bridge", name = "Bridge" },
@@ -118,7 +118,7 @@ dependencies = [
 
 [[move.package]]
 id = "stablecoin"
-source = { git = "https://github.com/circlefin/stablecoin-sui.git", rev = "master", subdir = "packages/stablecoin" }
+source = { local = "../../contracts_other/vendor/usdc/packages/stablecoin" }
 
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -127,7 +127,7 @@ dependencies = [
 
 [[move.package]]
 id = "sui_extensions"
-source = { git = "https://github.com/circlefin/stablecoin-sui.git", rev = "master", subdir = "packages/sui_extensions" }
+source = { local = "../../contracts_other/vendor/usdc/packages/sui_extensions" }
 
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -135,7 +135,7 @@ dependencies = [
 
 [[move.package]]
 id = "usdc"
-source = { git = "https://github.com/circlefin/stablecoin-sui.git", rev = "master", subdir = "packages/usdc" }
+source = { local = "../../contracts_other/vendor/usdc/packages/usdc" }
 
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -145,7 +145,7 @@ dependencies = [
 
 [[move.package]]
 id = "xaum"
-source = { git = "https://github.com/Matrixdock-RWA/RWA-Contracts.git", rev = "sui_verify", subdir = "xaum-sui/packages/xaum" }
+source = { local = "../../contracts_other/vendor/xaum/packages/xaum" }
 
 dependencies = [
   { id = "Bridge", name = "Bridge" },
