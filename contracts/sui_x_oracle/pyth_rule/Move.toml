@@ -1,0 +1,11 @@
+[package]
+name = "PythRule"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+Pyth = { git = "https://github.com/pyth-network/pyth-crosschain.git", subdir = "target_chains/sui/contracts", rev = "sui-contract-mainnet" }
+XOracle = { local = "../x_oracle" }
+
+[addresses]
+pyth_rule = "0x0"

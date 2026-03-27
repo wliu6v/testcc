@@ -1,0 +1,12 @@
+[package]
+name = "SupraRule"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+SupraOracle = { git = "https://github.com/Entropy-Foundation/dora-interface", subdir = "sui/mainnet/supra_holder", rev = "mainnet" }
+XOracle = {local = "../x_oracle"}
+
+
+[addresses]
+supra_rule = "0x0"

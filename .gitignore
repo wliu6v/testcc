@@ -1,0 +1,85 @@
+# Sui Move project .gitignore
+contracts-deprectaed/
+# Build outputs
+**/build/
+**/target/
+bin/
+
+# Dependency cache
+# **/Move.lock
+
+# IDE configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Environment configuration
+.env
+.env.local
+.env.*.local
+!.env.sample
+
+# Node.js (if frontend components exist)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if scripts exist)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Sui client configuration (sensitive information)
+sui_config/
+.sui/
+
+# Deployment records (may contain sensitive information)
+deployment_*.txt
+*.deploy
+
+# Test outputs
+test_results/
+coverage/
+
+# Documentation generation
+cursor/
+docs/build/
+
+# Backup files
+*.bak
+*.backup
+
+# Key files
+*.key
+*.pem
+keys/
+
+# Local development configuration
+local.toml
+local_config.toml
+
+# claude
+.claude/
+CLAUDE.md
+# claude mcp
+.playwright-mcp/
+
+# Python virtual environment
+sui_venv/
