@@ -25,7 +25,7 @@ subdir = "crates/sui-framework/packages/sui-framework"
 rev = "testnet"
 
 [addresses]
-sui_extensions = "0x0"
+sui_extensions = "0x03bcec3e0e2790cd9154b29ec7366f8bffaab0122d919c0511dc8be1d0144bad"
 
 [dev-dependencies]
 
